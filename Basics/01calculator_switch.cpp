@@ -1,12 +1,10 @@
-#include <iostream.h>
-#include <conio.h>
+#include <iostream>
+using namespace std;
 
-void main()
+int main()
 {
     int num1, num2;
     char op;
-
-    clrscr();
 
     cout<< "Enter the value of num1: "<<endl;    
     cin>>num1;
@@ -42,5 +40,5 @@ void main()
             cout<< "Invalid Input. Please try once again :)"<<endl;
     }
 
-    getch();
+    return 0;
 }
