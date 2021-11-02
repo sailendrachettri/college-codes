@@ -11,7 +11,5 @@ int main()
     if(num == temp) cout<< num<<" is palidrome number."<<endl;
     else cout<< num<<" is not a palidrome number."<<endl;
 
-
-
     return 0;
 }
