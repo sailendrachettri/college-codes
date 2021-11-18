@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+eval "$(ssh-agent -s)"
 int main()
 {
     for (int i = 12; i <= 50; i++)
@@ -8,7 +9,7 @@ int main()
         int c = 1;
 
         for (int j = 2; j < i; j++) 
-        {
+        { 
             if(i % j == 0){
                 c++;
                 break;
