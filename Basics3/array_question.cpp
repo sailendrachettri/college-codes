@@ -4,9 +4,15 @@ using namespace std;
 int main()
 {
     int position, data;
-    int arr[5];
+    int arr[5] = {10, 20, 30, 40, 50};
 
-    cout<< "Enter the position where u want to insert data?\nRange between 1 to 5."<<endl;    
+    cout<< "Old array: ";
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+
+    cout<< "\nEnter the position where u want to insert data?\nRange between 1 to 5."<<endl;    
     cin>>position;
 
     cout<< "Enter the integer data you want to insert: "<<endl;
@@ -14,7 +20,14 @@ int main()
 
     arr[position] = data;
 
-    cout<< "The value at position "<<position<<" is "<<arr[position]<<endl;
+    cout<< "New array: "<<endl;
+    for (int i = 0; i < 5; i++)
+    {
+        cout<< arr[i]<<" ";
+    }
+    
+
+
 
 
     return 0;
