@@ -12,7 +12,7 @@ int main()
         cout<<arr[i]<<" ";
     }
 
-    cout<< "\nEnter the position where u want to insert data?\nRange between 1 to 5."<<endl;    
+    cout<< "\nEnter the position where u want to insert data?\nRange between 0 to 4."<<endl;    
     cin>>position;
 
     cout<< "Enter the integer data you want to insert: "<<endl;
