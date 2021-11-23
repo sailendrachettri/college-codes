@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-eval "$(ssh-agent -s)"
 int main()
 {
     for (int i = 12; i <= 50; i++)
