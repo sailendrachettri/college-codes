@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
+// Reference: https://www.cplusplus.com/forum/beginner/215246/
+
 int main()
 {
-    int arr[] = {3, 1, 2, 4, 15};
+    int arr[] = {11, 3, 4, 5, 21, 1, 34};
     int temp;
     int size = sizeof(arr) / sizeof(arr[0]);
 
@@ -17,7 +19,7 @@ int main()
     {
         for (int j = 0; j < size; j++)
         {
-            if (arr[i] < arr[j])
+            if (arr[j] > arr[i])
             {
                 temp = arr[i];
                 arr[i] = arr[j];
