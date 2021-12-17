@@ -6,6 +6,7 @@ class Base
 {
 protected:
     int a;
+    
 private:
     int b;
 };
