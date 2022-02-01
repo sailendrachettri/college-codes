@@ -11,7 +11,7 @@ int main()
     // obj<<"here iam"<<endl;
     // obj.close();
 
-    char name[20] = "Hello World";
+    char name[20] = "Hello Hlo";
     ofstream p;
 
     p.open("first2.txt",ios::out);
@@ -22,6 +22,7 @@ int main()
     }
 
     p.close();
+    
     
 
     return 0;
